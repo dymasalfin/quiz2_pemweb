@@ -9,18 +9,18 @@ if(isset($_SESSION['username'])){
 <head>
 	<title>HALAMAN LOGIN</title>
 </head>
-<body>
-	<center><h1>LOGIN</h1></center>
+<center><body>
+	<h1>LOGIN</h1>
 	
-	<div style="color: red;margin-bottom: 15px;">
+	<center><div style="color: red;margin-bottom: 15px;">
 		<?php
 		if(isset($_COOKIE["message"])){
 			echo $_COOKIE["message"];
 		}
 		?>
-	</div>
+	</div></center>
 	
-	<center><form method="post" action="Login.php">
+	<form method="post" action="Login.php">
 		<label>Username</label><br>
 		<input type="text" name="username" placeholder="Username"><br><br>
 		
@@ -28,6 +28,6 @@ if(isset($_SESSION['username'])){
 		<input type="password" name="password" placeholder="Password"><br><br>
 		
 		<button type="submit">Login</button>
-	</form></center>
-</body>
+	</form>
+</body></center>
 </html>
