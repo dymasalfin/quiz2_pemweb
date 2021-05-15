@@ -28,6 +28,7 @@ if(isset($_SESSION['username'])){
 		<input type="password" name="password" placeholder="Password"><br><br>
 		
 		<button type="submit">Login</button>
+		<button type="submit"><a href="form-pendaftaran.php">registrasi</a></button>
 	</form>
 </body></center>
 </html>
