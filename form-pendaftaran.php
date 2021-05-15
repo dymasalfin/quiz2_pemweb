@@ -17,19 +17,19 @@
         <div class="form-group">
             <label>Username:</label>
             <div class="col-md-4 col-sm-4 ">
-              <input type="text" name="username" class="form-control" placeholder="Masukan Username" />
+              <input type="text" name="username" class="form-control" placeholder="Masukan Username" required/>
             </div>
         </div>
 		    <div class="form-group">
             <label>Password:</label>
             <div class="col-md-4 col-sm-4 ">
-            <input type="password" name="password" class="form-control" placeholder="Masukan Password" />
+            <input type="password" name="password" class="form-control" placeholder="Masukan Password" required/>
             </div>
         </div>
         <div class="form-group">
             <label>Nama:</label>
             <div class="col-md-4 col-sm-4 ">
-            <input type="text" name="nama" class="form-control" placeholder="Masukan Nama" />
+            <input type="text" name="nama" class="form-control" placeholder="Masukan Nama" required/>
             </div>
         </div>
 

@@ -17,13 +17,10 @@ $nama=$_POST["nama"];
 
 //Kondisi apakah berhasil atau tidak
   if ($hasil) {
-	echo "pendaftaran berhasil";
+	echo '<script>alert("pendaftaran berhasil."); document.location="index.php";</script>';
   }
 else {
-	echo "pendaftaran gagal";
+	echo '<div class="alert alert-warning">pendaftaran gagal.</div>';
 }  
 
 ?>
-<html>
-<a href="index.php">oke</a>
-<html>
