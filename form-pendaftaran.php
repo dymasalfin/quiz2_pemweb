@@ -12,7 +12,7 @@
   <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <center><div class="container">
-    <h2>Form Pendaftaran</h2>
+    <h2>Pendaftaran</h2>
     <form action="simpan-pendaftaran.php" method="post">
         <div class="form-group">
             <label>Username:</label>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="submit" class="btn btn-success">Submit</button>
 
     </form>
 </div></center>
